@@ -18,7 +18,7 @@ export default function App() {
                     <Capsule
                         text="BCE Lab Manual"
                         variant="cap1"
-                        onClick={() => { window.open("BCE_LAB.pdf"); }}
+                        onClick={() => { window.open("https://bcecode.vercel.app/BCE_LAB.pdf"); }}
                         startIcon={<File />}
                     />
                     <Capsule
